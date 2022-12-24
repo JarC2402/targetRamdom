@@ -1,0 +1,25 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 3%;
+    background-color: aliceblue;
+    margin: 2.5rem;
+}
+.bx-transfer {
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+hr {
+    width: 100%;
+}
+.bx {
+    margin: 2px;
+}
