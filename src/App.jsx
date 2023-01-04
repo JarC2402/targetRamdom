@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App2.css'
-import users from './Data/users.json'
+import users from './data/users.json'
 function App() {
   const [count, setCount] = useState(0)
   const colors = [ "#6D6875", "#B5838D", "#E5989B", "#7E9680", "#C73866", "#FFB4A2", "#79616F", "#EAB595", "#EAB524", "#C73823" ]
@@ -31,5 +31,5 @@ function App() {
      <i className='bx bx-transfer' onClick={changeIndex}></i>
     </div>
   )
-}
+};
 export default App
